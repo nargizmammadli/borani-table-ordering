@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QR kodlar — Boranı</title>
+    <link rel="icon" href="/img/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <style>
+      body {
+        background: var(--surface-2);
+      }
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 12px 16px;
+        background: var(--charcoal);
+        color: #fff;
+      }
+      .toolbar h1 {
+        margin: 0 auto 0 0;
+        font-size: 22px;
+      }
+      .sheet {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+      .tent {
+        display: grid;
+        justify-items: center;
+        gap: 6px;
+        padding: 22px 18px 18px;
+        border: 2px dashed #cbbfb1;
+        border-radius: 18px;
+        background: #fff;
+        text-align: center;
+        break-inside: avoid;
+      }
+      .tent img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+      }
+      .tent .name {
+        font-weight: 900;
+        font-size: 18px;
+      }
+      .tent .table {
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1;
+        color: var(--brand);
+      }
+      .tent .table small {
+        display: block;
+        margin-top: 4px;
+        font-size: 15px;
+        color: var(--ink-2);
+        letter-spacing: 0.04em;
+      }
+      .tent svg {
+        width: 210px;
+        height: 210px;
+      }
+      .tent .scan {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 1.35;
+      }
+      .tent .scan span {
+        display: block;
+        color: var(--ink-2);
+        font-weight: 700;
+      }
+      .msg {
+        max-width: 480px;
+        margin: 60px auto;
+        padding: 24px;
+        border-radius: 18px;
+        background: #fff;
+        text-align: center;
+      }
+      @media print {
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+        body {
+          background: #fff;
+        }
+        .toolbar {
+          display: none;
+        }
+        .sheet {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8mm;
+          max-width: none;
+          padding: 0;
+        }
+        .tent {
+          height: 88mm;
+          padding: 5mm;
+          gap: 2mm;
+          border-radius: 4mm;
+        }
+        .tent img {
+          width: 12mm;
+          height: 12mm;
+        }
+        .tent svg {
+          width: 40mm;
+          height: 40mm;
+        }
+        .tent .table {
+          font-size: 26pt;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <h1>QR · Boranı Fəvvarələr</h1>
+      <button type="button" class="btn btn-primary" onclick="window.print()" id="print-btn"></button>
+    </div>
+    <div id="sheet" class="sheet"></div>
+
+    <script src="/js/i18n.js"></script>
+    <script src="/js/common.js"></script>
+    <script>
+      (async function () {
+        const { esc, icon } = B;
+        document.getElementById('print-btn').innerHTML = `${icon('printer', 22)} ${esc(B.t('print'))}`;
+        const sheet = document.getElementById('sheet');
+        try {
+          const { tables } = await B.api('GET', '/api/qr-codes');
+          sheet.innerHTML = tables
+            .map(
+              (q) => `
+            <div class="tent">
+              <img src="/img/logo.jpg" alt="" />
+              <div class="name">Boranı Fəvvarələr</div>
+              <div class="table">Masa ${esc(q.table)}<small>TABLE ${esc(q.table)} · СТОЛ ${esc(q.table)}</small></div>
+              ${q.svg}
+              <div class="scan">${esc(I18N.az.scan_to_order)}<span>${esc(I18N.en.scan_to_order)}</span><span>${esc(I18N.ru.scan_to_order)}</span></div>
+            </div>`
+            )
+            .join('');
+        } catch (err) {
+          sheet.className = '';
+          sheet.innerHTML = `<div class="msg"><h2>${esc(B.t('enter_pin'))}</h2><p><a class="btn btn-primary" href="/reception">${esc(B.t('reception'))}</a></p></div>`;
+        }
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+node_modules/
+# Runtime data: open tables/orders and the local secret key (table QR codes are derived from it)
+data/state.json
+data/state.json.tmp
+data/session-secret
+.env
+*.log

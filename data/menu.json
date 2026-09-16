@@ -1,0 +1,1707 @@
+{
+  "restaurant": {
+    "name": "Boranı Fəvvarələr",
+    "address": "Mirzə İbrahimov 1",
+    "phone": "+994 55 505 57 87",
+    "serviceChargePercent": 10,
+    "currency": "₼"
+  },
+  "importedAt": "2026-09-16T13:55:49.907Z",
+  "categories": [
+    {
+      "id": "485",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Səhər yeməkləri",
+        "en": "Breakfasts",
+        "ru": "Завтраки"
+      },
+      "image": "/img/cat/breakfast-mecmeyide_seher_yemeyi-cr-550x150.jpg"
+    },
+    {
+      "id": "484",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "Салаты"
+      },
+      "image": "/img/cat/salad-et_salati_cuqundur_ile1-cr-550x150.jpg"
+    },
+    {
+      "id": "486",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "Супы"
+      },
+      "image": "/img/cat/soups-shorbalarjpeg-cr-550x150.jpg"
+    },
+    {
+      "id": "487",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Qəlyanaltılar",
+        "en": "Snacks",
+        "ru": "Закуски"
+      },
+      "image": "/img/cat/snacks-nuggets-cr-550x150.jpg"
+    },
+    {
+      "id": "488",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Pizzalar",
+        "en": "Pizza",
+        "ru": "Пиццы"
+      },
+      "image": "/img/cat/pizza-85-cr-550x150.png"
+    },
+    {
+      "id": "489",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Lahmacun və pidelər",
+        "en": "Lahmajun and Pide",
+        "ru": "Лахмаджун и пиде"
+      },
+      "image": "/img/cat/lahmacun-qovurmalipidejpeg-cr-550x150.jpg"
+    },
+    {
+      "id": "490",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Sendviçlər",
+        "en": "Sandwich",
+        "ru": "Сендвичы"
+      },
+      "image": "/img/cat/sandwich-club_sandwich-cr-550x150.jpg"
+    },
+    {
+      "id": "491",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Tantuni",
+        "en": "Tantuni",
+        "ru": "Тантуни"
+      },
+      "image": "/img/cat/tantuni-suzmeli_tantuni-cr-550x150.jpg"
+    },
+    {
+      "id": "492",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Şaurma",
+        "en": "Shawarma",
+        "ru": "Шаурма"
+      },
+      "image": "/img/cat/shaurma-ereb_shaurmasi-cr-550x150.jpg"
+    },
+    {
+      "id": "493",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Dürümlər",
+        "en": "Roll",
+        "ru": "Роллы"
+      },
+      "image": "/img/cat/roll-lahmacun_durum-cr-550x150.jpg"
+    },
+    {
+      "id": "494",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Burgerlər",
+        "en": "Burgers",
+        "ru": "Бургеры"
+      },
+      "image": "/img/cat/burger-chickenburger-cr-550x150.jpg"
+    },
+    {
+      "id": "495",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "image": "/img/cat/kebabs-113-cr-550x150.png"
+    },
+    {
+      "id": "496",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Dönərlər",
+        "en": "Doner",
+        "ru": "Донеры"
+      },
+      "image": "/img/cat/doner-54-cr-550x150.png"
+    },
+    {
+      "id": "497",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "Sərfəli menu",
+        "en": "Profit burger menu",
+        "ru": "Выгодное предложение"
+      },
+      "image": "/img/cat/serfelimenu-cheeseburger_menu-cr-550x150.jpg"
+    },
+    {
+      "id": "563",
+      "section": "food",
+      "station": "kitchen",
+      "quickNotes": "food",
+      "name": {
+        "az": "İsti yeməklər",
+        "en": "Hot meals",
+        "ru": "Горячие блюда"
+      },
+      "image": "/img/cat/hot_meals-sac_et1-cr-550x150.jpg"
+    },
+    {
+      "id": "871",
+      "section": "bar",
+      "station": "bar",
+      "quickNotes": "drink",
+      "name": {
+        "az": "Freş",
+        "en": "Fresh juice",
+        "ru": "Фреш"
+      },
+      "image": "/img/cat/bar-fresh-cr-550x150.jpg"
+    },
+    {
+      "id": "499",
+      "section": "bar",
+      "station": "bar",
+      "quickNotes": "drink",
+      "name": {
+        "az": "Sərin içkilər",
+        "en": "Cold drinks",
+        "ru": "Холодные напитки"
+      },
+      "image": "/img/cat/bar-limonad1-cr-550x150.jpg"
+    },
+    {
+      "id": "500",
+      "section": "bar",
+      "station": "bar",
+      "quickNotes": "drink",
+      "name": {
+        "az": "İsti içkilər",
+        "en": "Hot drinks",
+        "ru": "Горячие напитки"
+      },
+      "image": "/img/cat/bar-caystakan-cr-550x150.jpg"
+    },
+    {
+      "id": "501",
+      "section": "bar",
+      "station": "bar",
+      "quickNotes": "drink",
+      "name": {
+        "az": "Kokteyllər",
+        "en": "Cocktails",
+        "ru": "Коктейлы"
+      },
+      "image": "/img/cat/bar-milkshake1-cr-550x150.jpg"
+    },
+    {
+      "id": "502",
+      "section": "bar",
+      "station": "bar",
+      "quickNotes": "dessert",
+      "name": {
+        "az": "Desertlər",
+        "en": "Desserts",
+        "ru": "Десерты"
+      },
+      "image": "/img/cat/dessert-15-cr-550x150.png"
+    }
+  ],
+  "items": [
+    {
+      "id": "4142",
+      "category": "485",
+      "name": {
+        "az": "Klassik Səhər Yeməyi",
+        "en": "Classic breakfast",
+        "ru": "Классический завтрак"
+      },
+      "description": {
+        "az": "Yumurta, bal, cem, kərə yağı, pendir, zeytun, pomidor, xiyar, göyərti, çörək və çay",
+        "en": "Egg, honey, jam, butter, cheese, olives, tomatoes, fresh cucumbers, greens, bread and tea",
+        "ru": "Яйцо, мед, варенье, масло, сыр, оливки, свежие помидоры и огурцы, зелень, хлеб и чай"
+      },
+      "price": 950,
+      "image": "/img/menu/breakfast-klassik_seher_yemeyi1-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4143",
+      "category": "485",
+      "name": {
+        "az": "Menemen",
+        "en": "Menemen",
+        "ru": "Менемен"
+      },
+      "description": {
+        "az": "Yumurta, pomidor, yaşıl bibər, ədviyyatlar, çörək və çay",
+        "en": "Egg, tomatoes, green pepper, spices, bread and tea",
+        "ru": "Яйцо, помидоры, зеленый перец, специи, хлеб и чай"
+      },
+      "price": 630,
+      "image": "/img/menu/breakfast-menemen-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4144",
+      "category": "485",
+      "name": {
+        "az": "Sərpmə səhər yeməyi",
+        "en": "Mix breakfast",
+        "ru": "Микс завтрак"
+      },
+      "description": {
+        "az": "Pomidor, xiyar, qöyərti, zeytun qara, zeytun yaşıl, bal, qaymaq, kərə yağı, ağ pendir, qauda pend",
+        "en": "Tomatoes, cucumbers, greens, black olives, green olives, honey, cream, butter, white cheese, gouda c",
+        "ru": "Помидоры, огурцы, зелень, маслины черные, оливки зеленые, мед, сливки, сливочное масло, белый сыр, с"
+      },
+      "price": 2490,
+      "image": "/img/menu/breakfast-134-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4145",
+      "category": "485",
+      "name": {
+        "az": "Sucuklu Yumurta",
+        "en": "Omelet with sujuk",
+        "ru": "Омлет с суджуком"
+      },
+      "description": {
+        "az": "Yumurta, sucuk, kərə yağı, çörək və çay",
+        "en": "Egg, sujuk, butter, bread and tea",
+        "ru": "Яйцо, суджук, масло, хлеб и чай"
+      },
+      "price": 750,
+      "image": "/img/menu/breakfast-yumurta_sucuq-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4250",
+      "category": "484",
+      "name": {
+        "az": "Sezar Salatı",
+        "en": "Caesar salad",
+        "ru": "Салат Цезарь"
+      },
+      "description": {
+        "az": "Toyuq filesi, sezar sousu, aysberq kahı, suxari, çerri pomidor, parmezan pendiri",
+        "en": "Chicken fillet, Caesar sauce, iceberg lettuce, rusk, cherry tomatoes, parmesan cheese",
+        "ru": "Куриное филе, соус Цезарь, латук айсберг, сухари, помидоры черри, сыр пармезан"
+      },
+      "price": 1150,
+      "image": "/img/menu/salad-23-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4254",
+      "category": "484",
+      "name": {
+        "az": "Çoban Salatı",
+        "en": "Choban salad",
+        "ru": "Салат Чобан"
+      },
+      "description": {
+        "az": "Yaşıl şirin bolqar bibər, pomidor, xiyar, soğan, göyərti, kahı, ədviyyatlar, zeytun yağı, sirkə,",
+        "en": "Green sweet pepper, tomatoes, fresh cucumbers, onion, greens, lettuce, spices, olive oil, vinegar,",
+        "ru": "Зеленый сладкий перец, свежие помидоры и огурцы, лук, зелень, латук, специи, оливковое масло"
+      },
+      "price": 530,
+      "image": "/img/menu/salad-20-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4251",
+      "category": "484",
+      "name": {
+        "az": "Qavurdağı Salatı",
+        "en": "Gavurdaghi salad",
+        "ru": "Гявурдагы салат"
+      },
+      "description": {
+        "az": "Pomidor, xiyar, təzə nanə, üyüdülmüş qoz, narşərab, zeytun yağı, limon",
+        "en": "Tomato, cucumber, fresh mint, grinded nuts, narsharab, olive oil, fresh lemon",
+        "ru": "Помидор, огурец, свежая мята, перетертый орех, нршараб, оливковое масло,свежий лимон"
+      },
+      "price": 750,
+      "image": "/img/menu/salad-19-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4245",
+      "category": "484",
+      "name": {
+        "az": "İsti ət salatı",
+        "en": "Meat salad",
+        "ru": "Мясной салат"
+      },
+      "description": {
+        "az": "Mal əti, pomidor, xiyar, limon, aysberq, yağ zeytun, göyərti, svit çili sousu, ədviyyatlar",
+        "en": "Beef, tomato, cucumber, lemon, iceberg, olive oil, greens, sweet chili sauce, spices",
+        "ru": "Говядина, помидор, огурец, лимон, айсберг, оливковое масло, зелень, сладкий соус чили,&nbs"
+      },
+      "price": 1290,
+      "image": "/img/menu/salad-26-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4271",
+      "category": "486",
+      "name": {
+        "az": "Tərəvəzli Toyuq Şorbası",
+        "en": "Chicken soup",
+        "ru": "Куриный суп"
+      },
+      "description": {
+        "az": "Kök, kartof, yumru düyü, yaşıl noxud, kərəviz, ədviyyatlar",
+        "en": "Chicken fillet, butter, egg, lemon",
+        "ru": "Куриное филе, масло, яйцо, лимон"
+      },
+      "price": 480,
+      "image": "/img/menu/soups-49-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4274",
+      "category": "486",
+      "name": {
+        "az": "Dovğa",
+        "en": "Dovga",
+        "ru": "Довга"
+      },
+      "description": {
+        "az": "Qatıq, yumru düyü, qarışıq göyərtilər, noxud, ədviyyatlar",
+        "en": "Yogurt, round rice, mixed greens, peas, spices",
+        "ru": "Мацони, круглый рис, смешанная зелень, горох, специи"
+      },
+      "price": 370,
+      "image": "/img/menu/soups-47-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4273",
+      "category": "486",
+      "name": {
+        "az": "Mərci Şorbası",
+        "en": "Lentil soup",
+        "ru": "Чечевичный суп"
+      },
+      "description": {
+        "az": "Mərci, kök, soğan, kərə yağı, ədviyyatlar",
+        "en": "Lentil, potatoes, carrot, spices, butter, onion",
+        "ru": "Чечевица, картофель, морковь, специи, масло, лук"
+      },
+      "price": 430,
+      "image": "/img/menu/soups-48-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4272",
+      "category": "486",
+      "name": {
+        "az": "Qaymaqlı Göbələk Şorbası",
+        "en": "Mushroom cream soup",
+        "ru": "Грибной крем-суп"
+      },
+      "description": {
+        "az": "Kərəviz, süd, qaymaq, soğan, göbələk, ədviyyatlar",
+        "en": "Mushroom, cream, butter, spices",
+        "ru": "Грибы, сливки, масло, специи"
+      },
+      "price": 520,
+      "image": "/img/menu/soups-50-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4266",
+      "category": "487",
+      "name": {
+        "az": "Toyuq qanadı",
+        "en": "Chicken wings",
+        "ru": "Куриные крылышки"
+      },
+      "description": {
+        "az": "Unlanmış toyuq qanadları, şirin çili sousu",
+        "en": "Breaded chicken wings, sweet chili sauce",
+        "ru": "Панированные куриные крылышки, соус сладкий чили"
+      },
+      "price": 690,
+      "image": "/img/menu/snacks-34-cr-550x350.png",
+      "soldOut": false,
+      "variants": [
+        {
+          "id": "4266-1",
+          "label": {
+            "az": "Acılı",
+            "en": "Spicy",
+            "ru": "Острые"
+          },
+          "price": 690
+        },
+        {
+          "id": "4266-2",
+          "label": {
+            "az": "Acısız",
+            "en": "Not spicy",
+            "ru": "Не острые"
+          },
+          "price": 690
+        }
+      ]
+    },
+    {
+      "id": "4265",
+      "category": "487",
+      "name": {
+        "az": "Xırt-Xırt Kartof Fri",
+        "en": "French fries",
+        "ru": "Картошка фри"
+      },
+      "description": {
+        "az": "Ədviyyatlı kartof fri",
+        "en": "Spiced French fries",
+        "ru": "Картошка фри со специями"
+      },
+      "price": 490,
+      "image": "/img/menu/snacks-32-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4264",
+      "category": "487",
+      "name": {
+        "az": "İçli köftə",
+        "en": "Ichli kofte",
+        "ru": "Ичли кофте"
+      },
+      "description": {
+        "az": "Mal əti, quzu əti, qoz ləpəsi, soğan, ədviyyatlar, köftəlik bulqur, yumurta",
+        "en": "Beef, lamb, walnuts, onions, spices, meatballs bulgur, eggs",
+        "ru": "Говядина, баранина, орехи, лук, специи, фрикадельки булгур, яйца"
+      },
+      "price": 650,
+      "image": "/img/menu/snacks-35-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4268",
+      "category": "487",
+      "name": {
+        "az": "Mozzarella Çubuqları",
+        "en": "Mozarella sticks",
+        "ru": "Палочки из моцареллы"
+      },
+      "description": {
+        "az": "Özəl hazırlanmış pendir çubuqları",
+        "en": "Handmade cheese sticks",
+        "ru": "Сырные палочки приготовленные вручную"
+      },
+      "price": 890,
+      "image": "/img/menu/snacks-33-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4216",
+      "category": "488",
+      "name": {
+        "az": "Boranı Qarışıq",
+        "en": "Borani mix",
+        "ru": "Boranı микс"
+      },
+      "description": {
+        "az": "Pizza sousu, göbələk, mozzarella pendiri, kolbasa, sosiska, pomidor, bibər, zeytun pizza xəmiri",
+        "en": "Pizza dough, sauce, mushroom, sausage, tomato, pepper, mozzarella cheese, olive",
+        "ru": "Тесто для пиццы, соус, грибы, сосиски, помидоры, перец, сыр моцарелла, оливки"
+      },
+      "price": 1050,
+      "image": "/img/menu/pizza-85-cr-550x350.png",
+      "soldOut": false,
+      "variants": [
+        {
+          "id": "4216",
+          "label": {
+            "az": "15 sm",
+            "en": "15 cm",
+            "ru": "15 см"
+          },
+          "price": 1050
+        },
+        {
+          "id": "4231",
+          "label": {
+            "az": "22 sm",
+            "en": "22 cm",
+            "ru": "22 см"
+          },
+          "price": 1190
+        },
+        {
+          "id": "4232",
+          "label": {
+            "az": "32 sm",
+            "en": "32 cm",
+            "ru": "32 см"
+          },
+          "price": 1490
+        }
+      ]
+    },
+    {
+      "id": "4221",
+      "category": "488",
+      "name": {
+        "az": "Sezar Pizza",
+        "en": "Caesar pizza",
+        "ru": "Пицца Цезарь"
+      },
+      "description": {
+        "az": "Pizza sousu, mozzarella pendiri, toyuq filesi, aysberq, sezar sousu, çerri pomidor pizza , xəmiri",
+        "en": "Chicken fillet, Caesar sauce, iceberg lettuce, rusk, cherrytomatoes, parmesan cheese",
+        "ru": "Куриное филе, соус Цезарь, латук айсберг, сухари, помидорычерри, сыр пармезан"
+      },
+      "price": 970,
+      "image": "/img/menu/pizza-84-cr-550x350.png",
+      "soldOut": false,
+      "variants": [
+        {
+          "id": "4221",
+          "label": {
+            "az": "15 sm",
+            "en": "15 cm",
+            "ru": "15 см"
+          },
+          "price": 970
+        },
+        {
+          "id": "4222",
+          "label": {
+            "az": "22 sm",
+            "en": "22 cm",
+            "ru": "22 см"
+          },
+          "price": 1130
+        },
+        {
+          "id": "4223",
+          "label": {
+            "az": "32 sm",
+            "en": "32 cm",
+            "ru": "32 см"
+          },
+          "price": 1400
+        }
+      ]
+    },
+    {
+      "id": "4219",
+      "category": "488",
+      "name": {
+        "az": "Margaritta",
+        "en": "Margarita",
+        "ru": "Маргарита"
+      },
+      "description": {
+        "az": "Pizza sousu, mozzarella pendiri, pomidor, pizza xəmiri",
+        "en": "Pizza dough, sauce, mozzarella cheese, tomato",
+        "ru": "Тесто для пиццы, соус, сыр моцарелла, помидоры"
+      },
+      "price": 800,
+      "image": "/img/menu/pizza-78-cr-550x350.png",
+      "soldOut": false,
+      "variants": [
+        {
+          "id": "4219",
+          "label": {
+            "az": "15 sm",
+            "en": "15 cm",
+            "ru": "15 см"
+          },
+          "price": 800
+        },
+        {
+          "id": "4226",
+          "label": {
+            "az": "22 sm",
+            "en": "22 cm",
+            "ru": "22 см"
+          },
+          "price": 940
+        },
+        {
+          "id": "4214",
+          "label": {
+            "az": "32 sm",
+            "en": "32 cm",
+            "ru": "32 см"
+          },
+          "price": 1140
+        }
+      ]
+    },
+    {
+      "id": "4215",
+      "category": "488",
+      "name": {
+        "az": "Ətli pizza",
+        "en": "Pizza with meat",
+        "ru": "Пицца с мясом"
+      },
+      "description": {
+        "az": "Rukola, can əti, soya sousu, çerri pomidoru, parmezan pendir",
+        "en": "Руккола, говядина, соевый соус, помидоры черри, сыр пармезан",
+        "ru": "Тесто для пиццы, соус для пиццы, сыр моцарелла, творог"
+      },
+      "price": 1300,
+      "image": "/img/menu/pizza-82-cr-550x350.png",
+      "soldOut": false,
+      "variants": [
+        {
+          "id": "4215",
+          "label": {
+            "az": "22 sm",
+            "en": "22 cm",
+            "ru": "22 см"
+          },
+          "price": 1300
+        },
+        {
+          "id": "4228",
+          "label": {
+            "az": "32 sm",
+            "en": "32 cm",
+            "ru": "32 см"
+          },
+          "price": 1480
+        }
+      ]
+    },
+    {
+      "id": "4213",
+      "category": "489",
+      "name": {
+        "az": "Lahmacun",
+        "en": "Lahmajun",
+        "ru": "Лахмаджун"
+      },
+      "description": {
+        "az": "Mal əti, pomidor, bibər, ədviyyatlar, göyərti, limon",
+        "en": "Beef, tomato, pepper, spices, greens, lemon",
+        "ru": "Говядина, помидоры, перец, специи, зелень, лимон"
+      },
+      "price": 450,
+      "image": "/img/menu/lahmacun-39-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4209",
+      "category": "489",
+      "name": {
+        "az": "Pendirli lahmacun",
+        "en": "Lahmajun with cheese",
+        "ru": "Лахмаджун с сыром"
+      },
+      "description": {
+        "az": "Mal əti, pomidor,qauda pendiri, bibər, ədviyyat, göyərti, limon",
+        "en": "Beef, tomato, gauda cheese, pepper, spices, greens, lemon",
+        "ru": "Говядина, помидор, сыр гауда, перец, специи, зелень, лимон"
+      },
+      "price": 550,
+      "image": "/img/menu/lahmacun-40-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4210",
+      "category": "489",
+      "name": {
+        "az": "Sucuklu Pide",
+        "en": "Pide with sujuk",
+        "ru": "Пиде с суджуком"
+      },
+      "description": {
+        "az": "Sucuk, mozzarella pendiri",
+        "en": "Pide dough, sujuk, mozzarella cheese",
+        "ru": "Тесто для пиде, суджук, сыр моцарелла"
+      },
+      "price": 890,
+      "image": "/img/menu/lahmacun-43-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4211",
+      "category": "489",
+      "name": {
+        "az": "Quşbaşılı Pide",
+        "en": "Kushbashi pide",
+        "ru": "Кушбашы пиде"
+      },
+      "description": {
+        "az": "Can əti, bibər, pomidor, ədviyyatlar, mozzarella pendiri",
+        "en": "Meat, pepper, tomatoes, special spices, lahmajun forcemeat, mozzarella cheese",
+        "ru": "Мясо, перец, помидор, специи по вкусу, фарш для лахмаджуна, сыр моцарелла"
+      },
+      "price": 950,
+      "image": "/img/menu/lahmacun-41-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4258",
+      "category": "490",
+      "name": {
+        "az": "Pendirli Göbələkli Tost",
+        "en": "Cheesy toast with mushrooms and tomato",
+        "ru": "Сырный тост с грибами и помидорами"
+      },
+      "description": {
+        "az": "Tost çörəyi, kahı, göbələk, xiyar, mozarella pendiri, kartof fri",
+        "en": "Toast bread, mozzarella, tomato, cucumber, lettuce, spicy French fries, mushrooms",
+        "ru": "Тост для хлеба, моцарелла, помидор, огурец, латук, картошка фри соспециями, грибы"
+      },
+      "price": 780,
+      "image": "/img/menu/sandwich-37-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4259",
+      "category": "490",
+      "name": {
+        "az": "Klab sendviç",
+        "en": "Club Sandvich",
+        "ru": "Клаб сендвич"
+      },
+      "description": {
+        "az": "Tost çörəyi, özəl sous, kahı, pomidor, turşu xiyar, salyami, toyuq file, kartof fri",
+        "en": "Toast bread, pickle cucumber, lettuce, tomato, chicken, mayonnaise, spicy Frenchfries",
+        "ru": "Тост для хлеба, соленые огурцы, латук, помидор, курица, майонез, картошкафри со специями"
+      },
+      "price": 1090,
+      "image": "/img/menu/sandwich-38-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4275",
+      "category": "491",
+      "name": {
+        "az": "Tantuni Türk Çörəyində",
+        "en": "Bread tantuni",
+        "ru": "Тантуни с хлебом"
+      },
+      "description": {
+        "az": "Mal əti, göyərti, pomidor, soğan, ədviyyatlar",
+        "en": "Bread, beef, greens, tomato, onion, spices",
+        "ru": "Хлеб, говядина, зелень, помидоры, лук, специи"
+      },
+      "price": 530,
+      "image": "/img/menu/tantuni-73-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4276",
+      "category": "491",
+      "name": {
+        "az": "Lavaş Arası Tantuni",
+        "en": "Lavash tantuni",
+        "ru": "Тантуни с лавашом"
+      },
+      "description": {
+        "az": "Mal əti, göyərti, pomidor, soğan, ədviyyatlar",
+        "en": "Lavash, beef, greens, tomato, onion, spices",
+        "ru": "Лаваш, говядина, зелень, помидоры, лук, специи"
+      },
+      "price": 530,
+      "image": "/img/menu/tantuni-74-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4277",
+      "category": "491",
+      "name": {
+        "az": "İsti Süzməli Tantuni",
+        "en": "Suzme tantuni (on a plate)",
+        "ru": "Тантуни с сюзме (йогурт) (на тарелке)"
+      },
+      "description": {
+        "az": "Mal əti, göyərti, pomidor, soğan, tantuni süzməsi ədviyyatlar",
+        "en": "Lavash, beef, greens, tomato, suzme (yogurt), onion, spices",
+        "ru": "Лаваш, говядина, зелень, помидоры, сюзме (йогурт), лук, специи"
+      },
+      "price": 990,
+      "image": "/img/menu/tantuni-75-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4260",
+      "category": "492",
+      "name": {
+        "az": "Ərəb Şaurma",
+        "en": "Arabic shawarma",
+        "ru": "Арабская шаурма"
+      },
+      "description": {
+        "az": "Toyuq əti, kartof fri, turşu xiyar, şaurma sousu, turşu bibər, lavaş",
+        "en": "Chicken, french fries, pickled cucumber, sauce, lavash",
+        "ru": "Курица, картошка фри, соленые огурцы, соус, лаваш"
+      },
+      "price": 540,
+      "image": "/img/menu/shaurma-livan_shaurmasi-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4262",
+      "category": "492",
+      "name": {
+        "az": "Burrito Şaurma",
+        "en": "Burrito shawarma",
+        "ru": "Burrito шаурма"
+      },
+      "description": {
+        "az": "Toyuq əti, turşu xiyar, kartof fri, Boranı özəl sousu",
+        "en": "",
+        "ru": ""
+      },
+      "price": 540,
+      "image": "/img/menu/tantuni-burrito-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4261",
+      "category": "492",
+      "name": {
+        "az": "Livan Şaurma",
+        "en": "Lebanese shawarma",
+        "ru": "Ливанская шаурма"
+      },
+      "description": {
+        "az": "Toyuq əti, kartof fri, turşu xiyar, şaurma sousu, qırmızı kələm, aysberq, lavaş, turşu bibər",
+        "en": "Chicken, French fries, pickle cucumber, shawarma sauce, red cabbage, iceberglettuce, lavash, pickle",
+        "ru": "Куриное мясо, картошка фри, соленые огурцы, соус шаурма, красная капуста,латук айсберг, лаваш, солен"
+      },
+      "price": 540,
+      "image": "/img/menu/shaurma-ereb_shaurmasi-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4244",
+      "category": "493",
+      "name": {
+        "az": "Adana dürüm",
+        "en": "Adana durum",
+        "ru": "Адана дюрюм"
+      },
+      "description": {
+        "az": "Lavaş, mal əti, qırmızı soğan, pomidor, cəfəri, sumax, kahı, narşərab, turşu bibər,limon",
+        "en": "Lavash, beef, red onion, tomato, parsley, sumakh, lettuce, narsharab, pickle pepper,lemon",
+        "ru": "Лаваш, говядина, красный лук, помидор, петрушка, сумах, латук, наршараб,соленый перец, лимон"
+      },
+      "price": 850,
+      "image": "/img/menu/roll-71-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4241",
+      "category": "493",
+      "name": {
+        "az": "Toyuq şiş dürüm",
+        "en": "Chicken shish durum",
+        "ru": "Куриный шиш дюрюм"
+      },
+      "description": {
+        "az": "Lavaş, toyuq filesi, qırmızı soğan, pomidor, cəfəri, sumax, kahı, narşərab, turşubibər, limon",
+        "en": "Lavash, chicken fillet, red onion, tomato, parsley, sumakh, lettuce, narsharab,pickle pepper, lemon",
+        "ru": "Лаваш, куриное филе, красный лук, помидор, петрушка, сумах, латук,наршараб, соленый перец, лимон"
+      },
+      "price": 780,
+      "image": "/img/menu/roll-72-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4239",
+      "category": "493",
+      "name": {
+        "az": "Lahmacun lülə dürüm",
+        "en": "Lahmajun lule durum",
+        "ru": "Лахмаджун дурум с люле"
+      },
+      "description": {
+        "az": "Mal əti, pomidor, bibər, ədviyyatlar, soğan, narşərab",
+        "en": "Beef, tomato, pepper, spices, onion, narsharab",
+        "ru": "Говядина, помидор, перец, специи, лук, наршараб"
+      },
+      "price": 1090,
+      "image": "/img/menu/roll-68-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4238",
+      "category": "493",
+      "name": {
+        "az": "Lahmacun şaurma dürüm",
+        "en": "Lahmajun shawarma durum",
+        "ru": "Лахмаджун дурум с шаурмой"
+      },
+      "description": {
+        "az": "Mal əti, pomidor, bibər, ədviyyatlar, şaurma sousu, kartof, turşu bibər",
+        "en": "Beef, tomatoes, peppers, spices, shawarma sauce, potatoes, pickled peppers",
+        "ru": "Говядина, помидоры, перец, специи, соус для шаурмы, картофель, маринованный перец"
+      },
+      "price": 920,
+      "image": "/img/menu/roll-67-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4150",
+      "category": "494",
+      "name": {
+        "az": "Borani özəl burger",
+        "en": "Borani spesial burger",
+        "ru": "Борани спешл бургер"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 850,
+      "image": "/img/menu/burger-92-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "1320",
+      "category": "494",
+      "name": {
+        "az": "CheeseBurger",
+        "en": "Cheeseburger",
+        "ru": "Чизбургер"
+      },
+      "description": {
+        "az": "Mal əti, kahı, pomidor, turşu xiyar, özəl sous, qauda pendiri",
+        "en": "Beef, cutlet, gauda cheese, lettuce, pickled cucumber, mayonnaise, ketchup, tomato",
+        "ru": "Говяжья котлета, сыр Гауда, латук, соленые огурцы, майонез, кетчуп, помидоры"
+      },
+      "price": 780,
+      "image": "/img/menu/burger-cheeseburger-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1322",
+      "category": "494",
+      "name": {
+        "az": "Chicken Burger",
+        "en": "Chicken burger",
+        "ru": "Куриный бургер"
+      },
+      "description": {
+        "az": "Toyuq əti, kahı, pomidor, turşu xiyar, özəl sous, qauda pendiri",
+        "en": "Chicken cutlet, lettuce, pickled cucumber, mayonnaise, ketchup, tomato",
+        "ru": "Куриная котлета, латук, соленые огурцы, майонез, кетчуп, помидоры"
+      },
+      "price": 650,
+      "image": "/img/menu/burger-chickenburger-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1330",
+      "category": "494",
+      "name": {
+        "az": "Double Burger",
+        "en": "Double burger",
+        "ru": "Двойной бургер"
+      },
+      "description": {
+        "az": "2 qat mal əti, kahı, turşu xiyar, pomidor, özəl sous",
+        "en": "2 lays beef cutlet, lettuce, pickled cucumber, mayonnaise, ketchup, tomato",
+        "ru": "Двойная говяжья котлета, латук, соленые огурцы, майонез, кетчуп, помидоры"
+      },
+      "price": 890,
+      "image": "/img/menu/burger-duoble_burger-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4205",
+      "category": "495",
+      "name": {
+        "az": "Adana Lüləsi",
+        "en": "Adana lule",
+        "ru": "Адана люле"
+      },
+      "description": {
+        "az": "Acılı ət lüləsi, pomidor, bibər kababı, sumaqlı soğan, şakşuka",
+        "en": "Spicy beef lule, tomato and pepper kebab, sumakh and onion, shakshuka",
+        "ru": "Острая мясная люля, кебаб из помидоров и перца, сумах с луком, шакшука"
+      },
+      "price": 1250,
+      "image": "/img/menu/kebabs-138-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4189",
+      "category": "495",
+      "name": {
+        "az": "Beyti sarma",
+        "en": "Beyti sarma",
+        "ru": "Бейти сарма"
+      },
+      "description": {
+        "az": "Mal əti, bibər və pomidor kabab, lavaş, qatıq, sarımsaq, ədviyyatlar",
+        "en": "Beef, pepper and tomato kebab, lavash, yogurt, garlic, spices",
+        "ru": "Кебаб из говядины, перца и томатов, лаваш, йогурт, чеснок, специи"
+      },
+      "price": 1090,
+      "image": "/img/menu/kebabs-110-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4201",
+      "category": "495",
+      "name": {
+        "az": "Pendirli Köftə",
+        "en": "Cheesy kofte",
+        "ru": "Сырный кофте"
+      },
+      "description": {
+        "az": "Mal ətindən köftə, qauda pendiri, pomidor, bibər, sumaqlı soğan, şakşuka",
+        "en": "Beef kofte, gauda cheese, tomato, pepper, sumakh and onion, shakshuka",
+        "ru": "Мясная кофте, сыр гауда, помидор, перец, сумах с луком, шакшука"
+      },
+      "price": 1250,
+      "image": "/img/menu/kebabs-136-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4196",
+      "category": "495",
+      "name": {
+        "az": "Toyuq Çöp Şiş",
+        "en": "Chicken chop shish",
+        "ru": "Куриный чоп шиш"
+      },
+      "description": {
+        "az": "Toyuq filesi, lavaş, pomidor, bibər kababı, sumaqlı soğan, şakşuka",
+        "en": "Chicken fillet, lavash, potato, french fries, tomato, pepper, pickled cabbage, lettuce, spices&nbsp",
+        "ru": "Куриное филе, лаваш, картошка фри, помидоры, перец, соленая капуста, латук, специи"
+      },
+      "price": 920,
+      "image": "/img/menu/kebabs-115-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4200",
+      "category": "495",
+      "name": {
+        "az": "Qarışıq Kabab",
+        "en": "Mix kebab",
+        "ru": "Смешанный кебаб"
+      },
+      "description": {
+        "az": "Antrikot, can əti, toyuq steyk, ət lüləsi, toyuq lüləsi, kartof lülə, ət və toyuq çöp şiş, külləm",
+        "en": "Antricot, meat, chicken stake, meat lule, chicken lule, potato lule,meat chop shish, chicken chop sh",
+        "ru": "Антрекот, мясо, куриный стейк, мясная люле, куриная люле,картофельная люля, мясной чоп шиш, куриный"
+      },
+      "price": 2990,
+      "image": "/img/menu/kebabs-113-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4172",
+      "category": "496",
+      "name": {
+        "az": "Bakı Dönəri",
+        "en": "Classic doner Baku",
+        "ru": "Классический донер Баку"
+      },
+      "description": {
+        "az": "Mal əti, mayonez, xiyar, pomidor",
+        "en": "Beef, mayonnaise, fresh cucumbers and tomatoes",
+        "ru": "Говядина, майонез,свежие помидоры и огурцы"
+      },
+      "price": 490,
+      "image": "/img/menu/doner-63-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4167",
+      "category": "496",
+      "name": {
+        "az": "İsgəndər Dönər",
+        "en": "Iskender doner kebab",
+        "ru": "Искендер донер-кебаб"
+      },
+      "description": {
+        "az": "Mal əti, kərə yağı, qatıq, tomat sousu, bibər, çörək",
+        "en": "Beef, butter, yogurt, tomato sauce, tomato, pepper, pide bread",
+        "ru": "Говядина, масло, йогурт, томатный соус, помидоры, перец, хлеб для пиде"
+      },
+      "price": 1350,
+      "image": "/img/menu/doner-51-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4156",
+      "category": "496",
+      "name": {
+        "az": "Borani Plovüstü Dönər",
+        "en": "Borani doner on plov",
+        "ru": "Borani донер на плове"
+      },
+      "description": {
+        "az": "Mal əti, qarışıq mövsüm salatı turşu xiyar, pomidor, meksikan sous, sarımsaqlı sous",
+        "en": "",
+        "ru": ""
+      },
+      "price": 1190,
+      "image": "/img/menu/doner-54-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4162",
+      "category": "496",
+      "name": {
+        "az": "Xırt-Xırt Kartoflu Dönər",
+        "en": "Doner with french fries",
+        "ru": "Донер с картошкой фри"
+      },
+      "description": {
+        "az": "Mal əti, qarışıq mövsüm salatı turşu xiyar, pomidor, meksikan sous, sarımsaqlı sou",
+        "en": "",
+        "ru": ""
+      },
+      "price": 1190,
+      "image": "/img/menu/doner-55-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4237",
+      "category": "497",
+      "name": {
+        "az": "Cheeseburger+Kartof Fri +Sərin İçki",
+        "en": "Cheeseburger, French fries, drink",
+        "ru": "Чизбургер, картошка фри, напиток"
+      },
+      "description": {
+        "az": "Mal əti, kahı, pomidor, turşu xiyar, qauda pendiri, özəl sous",
+        "en": "Beef cutlet, gauda cheese, lettuce, pickled cucumber, fresh cucumber, tomato, mayonnaise, ketchup&n",
+        "ru": "Говяжья котлета, сыр Гауда, латук, соленые огурцы, свежие огурцы, помидоры, майонез, кетчуп"
+      },
+      "price": 1050,
+      "image": "/img/menu/serfelimenu-88-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4236",
+      "category": "497",
+      "name": {
+        "az": "Chicken Burger +Kartof Fri +Sərin İçki",
+        "en": "Chicken burger, French fries, drink",
+        "ru": "Куриный бургер, картошка фри, напиток"
+      },
+      "description": {
+        "az": "Toyuq əti, kahı, pomidor, turşu xiyar, qauda pendiri, özəl sous",
+        "en": "Chicken cutlet, lettuce, pickled cucumber, mayonnaise, ketchup, tomato",
+        "ru": "Куриная котлета, латук, соленый огурец, майонез, кетчуп, помидоры"
+      },
+      "price": 930,
+      "image": "/img/menu/serfelimenu-89-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4235",
+      "category": "497",
+      "name": {
+        "az": "Hamburger+Kartof Fri +Sərin İçki",
+        "en": "Hamburger, French fries, drink",
+        "ru": "Гамбургер, картошка фри, напиток"
+      },
+      "description": {
+        "az": "Mal əti, kahı, pomidor, turşu xiyar, özəl sous",
+        "en": "Beef cutlet, lettuce, pickled cucumber, tomato, mayonnaise, ketchup",
+        "ru": "Говяжья котлета, латук, соленые огурцы, помидоры, майонез, кетчуп"
+      },
+      "price": 990,
+      "image": "/img/menu/serfelimenu-90-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4185",
+      "category": "563",
+      "name": {
+        "az": "Göbələkli steyk",
+        "en": "Chicken steak with mushroom",
+        "ru": "Куриный стейк с грибами"
+      },
+      "description": {
+        "az": "Toyuq filesi, göbələk, parmesan pendiri, qaymaq, ədviyyatlar, yağ günəbaxan, kartof fri, ketçup, mek",
+        "en": "Chicken, mushrooms, parmesan cheese, cream, spices, sunflower oil, french fries, ketchup, Mexican sa",
+        "ru": "Куриное филе, грибы, сыр пармезан, сливки, специи, подсолнечное масло, картофель фри, кетчуп, мексик"
+      },
+      "price": 1090,
+      "image": "/img/menu/hot_meals-103-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4183",
+      "category": "563",
+      "name": {
+        "az": "Barbekü souslu toyuq",
+        "en": "Chicken with BBQ sauce",
+        "ru": "Курица с соусом барбекю"
+      },
+      "description": {
+        "az": "Toyuq filesi, rəngli bibər, göbələk, yağ, ədviyyatlar, barbekü sousu, kartof fri, ketçup, meksikan s",
+        "en": "Chicken fillet, colored peppers, mushrooms, oil, spices, barbecue sauce, french fries, ketchup, Mexi",
+        "ru": "Куриное филе, цветной перец, грибы, масло, специи, соус барбекю, картофель фри, кетчуп, мексиканский"
+      },
+      "price": 1050,
+      "image": "/img/menu/hot_meals-101-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4186",
+      "category": "563",
+      "name": {
+        "az": "Teryaki souslu toyuq",
+        "en": "Chicken with teriyaki sauce",
+        "ru": "Курица с соусом терияки"
+      },
+      "description": {
+        "az": "Toyuq budu, soya sousu, əsmər şəkər, bal, zəncəfil, sarımsaq, nişasta, soğan suyu, zeytun yağı, sirk",
+        "en": "Chicken, soy sauce, brown sugar, honey, ginger, garlic, starch, onion juice, olive oil, vinegar",
+        "ru": "Курица, соевый соус, коричневый сахар, мед, имбирь, чеснок, крахмал, луковый сок, оливковое масло, у"
+      },
+      "price": 1150,
+      "image": "/img/menu/hot_meals-102-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4182",
+      "category": "563",
+      "name": {
+        "az": "Sac toyuq",
+        "en": "Sadj with chicken",
+        "ru": "Садж с курицей"
+      },
+      "description": {
+        "az": "Toyuq filesi, lavaş, göbələk, pomidor, rəngli bibər, badımcan, ədviyyatlar, kartof, kərə yağı",
+        "en": "Chicken fillet, lavash, mushrooms, tomatoes, colored peppers, eggplant, spices, potatoes, butter",
+        "ru": "Куриное филе, лаваш, грибы, помидоры, цветной перец, баклажан, специи, картофель, сливочное масло"
+      },
+      "price": 2350,
+      "image": "/img/menu/hot_meals-104-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4181",
+      "category": "563",
+      "name": {
+        "az": "Sac ət",
+        "en": "Sadj with meat",
+        "ru": "Садж с мясом"
+      },
+      "description": {
+        "az": "Quzu əti, lavaş, göbələk, pomidor, rəngli bibər, badımcan, ədviyyatlar, kartof, kərə yağı",
+        "en": "Lamb meat, lavash, mushrooms, tomatoes, colored peppers, eggplant, spices, potatoes, butter",
+        "ru": "Баранина, лаваш, грибы, помидоры, цветной перец, баклажан, специи, картофель, сливочное масло"
+      },
+      "price": 2550,
+      "image": "/img/menu/hot_meals-105-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4308",
+      "category": "871",
+      "name": {
+        "az": "Alma",
+        "en": "Apple",
+        "ru": "Яблочный"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 590,
+      "image": "/img/menu/bar-fresh-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4303",
+      "category": "871",
+      "name": {
+        "az": "Portağal",
+        "en": "Orange",
+        "ru": "Апельсиновый"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 750,
+      "image": "/img/menu/bar-fresh-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4307",
+      "category": "871",
+      "name": {
+        "az": "Ananas",
+        "en": "Pineapple",
+        "ru": "Ананасовый"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 950,
+      "image": "/img/menu/bar-fresh-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1864",
+      "category": "499",
+      "name": {
+        "az": "Ayran",
+        "en": "Ayran",
+        "ru": "Айран"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 270,
+      "image": "/img/menu/bar-ayran-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1340",
+      "category": "499",
+      "name": {
+        "az": "Ice Tea",
+        "en": "Ice Tea",
+        "ru": "Ice Tea"
+      },
+      "description": {
+        "az": "Alma Çiyələk Limon Mango Şaftalı Qarpız",
+        "en": "Apple Strawberry Lemon Mango Peach Watermelon",
+        "ru": "Яблоко Клубника Лимон Mанго Персик Арбуз"
+      },
+      "price": 480,
+      "image": "/img/menu/bar-icetea1-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1351",
+      "category": "499",
+      "name": {
+        "az": "Limodalar",
+        "en": "Lemonads",
+        "ru": "Лимонады"
+      },
+      "description": {
+        "az": "Yaşıl Alma Düşes Kivi və Alma Qarağat Marakuya Çiyələk Qar",
+        "en": "Green Apple Duchess Kiwi and Apple Currant passion fruit Strawberry&n",
+        "ru": "Зеленое яблоко Дюшес Киви и яблоко Смородина Mаракуйя Клубника Арбуз&n"
+      },
+      "price": 550,
+      "image": "/img/menu/bar-limonad1-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1832",
+      "category": "499",
+      "name": {
+        "az": "Coca-Cola 0.33",
+        "en": "Coca-Cola 0.33",
+        "ru": "Coca-Cola 0.33"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 370,
+      "image": "/img/menu/bar-cola-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1838",
+      "category": "499",
+      "name": {
+        "az": "Fanta 0.33",
+        "en": "Fanta 0.33",
+        "ru": "Fanta 0.33"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 370,
+      "image": "/img/menu/bar-fanta-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1305",
+      "category": "500",
+      "name": {
+        "az": "Americano",
+        "en": "Americano",
+        "ru": "Americano"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 420,
+      "image": "/img/menu/bar-americano-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1318",
+      "category": "500",
+      "name": {
+        "az": "Cappuccino",
+        "en": "Cappuccino",
+        "ru": "Cappuccino"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 530,
+      "image": "/img/menu/bar-cappucino-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1887",
+      "category": "500",
+      "name": {
+        "az": "Çay stəkanda",
+        "en": "Tea in a glass",
+        "ru": "Чай в стакане"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 290,
+      "image": "/img/menu/bar-caystakan-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "1421",
+      "category": "500",
+      "name": {
+        "az": "Türk Qəhvəsi",
+        "en": "Turkish coffee",
+        "ru": "Турецкий кофе"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 490,
+      "image": "/img/menu/bar-turk_kahvesi-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4302",
+      "category": "501",
+      "name": {
+        "az": "Milkshake",
+        "en": "Milkshake",
+        "ru": "Милкшейк"
+      },
+      "description": {
+        "az": "Vanil Çiyələk Popcorn Chocolate Oreo",
+        "en": "VanilÇiyələkPopcornChocolate Oreo",
+        "ru": "ВанильКлубникаПопкорнШоколадOreo"
+      },
+      "price": 790,
+      "image": "/img/menu/bar-milkshake-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4301",
+      "category": "501",
+      "name": {
+        "az": "Moxito",
+        "en": "Mojito",
+        "ru": "Мохито"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 650,
+      "image": "/img/menu/bar-moxito-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4296",
+      "category": "501",
+      "name": {
+        "az": "Red Sunset",
+        "en": "Red Sunset",
+        "ru": "Red Sunset"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 590,
+      "image": "/img/menu/bar-coctails-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4300",
+      "category": "501",
+      "name": {
+        "az": "Moxito çiyələkli",
+        "en": "Strawberry Mojito",
+        "ru": "Клубничный Мохито"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 690,
+      "image": "/img/menu/bar-moxito-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4278",
+      "category": "502",
+      "name": {
+        "az": "Çizkeyk",
+        "en": "Cheesecake",
+        "ru": "Чизкейк"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 750,
+      "image": "/img/menu/dessert-3-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4293",
+      "category": "502",
+      "name": {
+        "az": "Ballı Tort",
+        "en": "Honey cake",
+        "ru": "Медовый торт"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 590,
+      "image": "/img/menu/dessert-8-cr-550x350.png",
+      "soldOut": false
+    },
+    {
+      "id": "4289",
+      "category": "502",
+      "name": {
+        "az": "Künəfə",
+        "en": "Kunefe",
+        "ru": "Кюнефе"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 730,
+      "image": "/img/menu/dessert-kunefe1-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4288",
+      "category": "502",
+      "name": {
+        "az": "San Sebastian",
+        "en": "San Sebastian",
+        "ru": "Чизкейк Сан Себастьян"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 700,
+      "image": "/img/menu/dessert-sansebastian-cr-550x350.jpg",
+      "soldOut": false
+    },
+    {
+      "id": "4286",
+      "category": "502",
+      "name": {
+        "az": "Tiramisu",
+        "en": "Tiramisu",
+        "ru": "Тирамису"
+      },
+      "description": {
+        "az": "",
+        "en": "",
+        "ru": ""
+      },
+      "price": 690,
+      "image": "/img/menu/dessert-tiramisu-cr-550x350.jpg",
+      "soldOut": false
+    }
+  ]
+}

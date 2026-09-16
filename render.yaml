@@ -1,0 +1,22 @@
+# Render blueprint: New > Blueprint > pick this GitHub repo.
+services:
+  - type: web
+    name: borani-ordering
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/me
+    envVars:
+      # Generated once by Render and kept; staff logins and table QR codes depend on it.
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: KITCHEN_PIN
+        value: "1111"
+      - key: RECEPTION_PIN
+        value: "2222"
+      - key: TABLE_COUNT
+        value: "12"
+      # "true" shows the demo launcher (with PINs) on the home page. Set to "false" for real use.
+      - key: DEMO_MODE
+        value: "true"

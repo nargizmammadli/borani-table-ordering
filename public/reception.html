@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2b2826" />
+    <title>Kassa — Boranı</title>
+    <link rel="icon" href="/img/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/staff.css" />
+    <link rel="stylesheet" href="/css/reception.css" />
+  </head>
+  <body class="staff reception">
+    <div id="gate" class="gate-root"></div>
+    <header id="head" class="staff-head"></header>
+    <main id="main" class="r-main"></main>
+    <div id="offline" class="offline-banner" hidden></div>
+    <div id="layer-table"></div>
+    <div id="layer-picker"></div>
+    <div id="layer-confirm"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/i18n.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/staff.js"></script>
+    <script src="/js/reception.js"></script>
+  </body>
+</html>

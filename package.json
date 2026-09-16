@@ -1,0 +1,21 @@
+{
+  "name": "borani-table-ordering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "QR table ordering with reception approval and a kitchen screen for Boranı Fəvvarələr",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "import-menu": "node scripts/import-menu.js",
+    "import-menu:all": "node scripts/import-menu.js --all"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  }
+}

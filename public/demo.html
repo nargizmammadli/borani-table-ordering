@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boranı Table Ordering — Demo</title>
+    <link rel="icon" href="/img/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <style>
+      .top {
+        padding: 40px 16px 70px;
+        color: #fff;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(20, 16, 13, 0.55), rgba(20, 16, 13, 0.85)), url('/img/hero.jpg') center / cover;
+      }
+      .top img {
+        width: 82px;
+        height: 82px;
+        margin: 0 auto 12px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+      .top h1 {
+        margin: 0;
+        font-size: clamp(28px, 5vw, 42px);
+        font-weight: 900;
+      }
+      .top p {
+        max-width: 640px;
+        margin: 10px auto 0;
+        opacity: 0.92;
+      }
+      .wrap {
+        max-width: 1100px;
+        margin: -44px auto 40px;
+        padding: 0 16px;
+        display: grid;
+        gap: 18px;
+      }
+      .screens {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 18px;
+      }
+      .panel {
+        padding: 22px;
+        border-radius: 22px;
+        background: #fff;
+        box-shadow: var(--shadow);
+      }
+      .panel h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0 0 6px;
+        font-size: 22px;
+      }
+      .panel h2 .num {
+        display: grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--brand);
+        color: #fff;
+        font-size: 18px;
+      }
+      .panel p {
+        margin: 0 0 14px;
+        color: var(--ink-2);
+      }
+      .pin {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 4px 12px;
+        border-radius: 10px;
+        background: var(--surface-2);
+        font-weight: 800;
+        letter-spacing: 0.1em;
+      }
+      .tables {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        gap: 14px;
+      }
+      .qr {
+        display: grid;
+        justify-items: center;
+        gap: 8px;
+        padding: 14px;
+        border: 2px solid var(--line);
+        border-radius: 18px;
+        text-align: center;
+      }
+      .qr svg {
+        width: 150px;
+        height: 150px;
+      }
+      .qr b {
+        font-size: 20px;
+      }
+      .steps {
+        margin: 0;
+        padding-left: 22px;
+        color: var(--ink-2);
+      }
+      .steps li {
+        margin: 6px 0;
+      }
+      .note {
+        padding: 12px 14px;
+        border-radius: 14px;
+        background: var(--amber-soft);
+        color: #6b4400;
+        font-weight: 700;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <img src="/img/logo.jpg" alt="" />
+      <h1>Boranı Fəvvarələr · Table ordering</h1>
+      <p>Demo launcher. Open the three screens, then scan a table QR code with a phone that is on the same Wi-Fi as this computer.</p>
+    </header>
+
+    <main class="wrap">
+      <section class="panel">
+        <h2><span class="num">1</span> Guest phone — scan a table</h2>
+        <p>Each table has its own QR code; the table number is added to the order automatically.</p>
+        <div class="tables" id="tables"></div>
+        <p class="note" id="base" style="margin-top:14px"></p>
+      </section>
+
+      <div class="screens">
+        <section class="panel">
+          <h2><span class="num">2</span> Reception screen</h2>
+          <p>Checks and approves new orders, edits them, prepares drinks & desserts, handles waiter/bill calls, closes bills.</p>
+          <div class="pin" id="pin-reception"></div><br />
+          <a class="btn btn-primary" href="/reception" target="_blank" rel="noopener">Open reception</a>
+        </section>
+        <section class="panel">
+          <h2><span class="num">3</span> Kitchen screen</h2>
+          <p>For a wall touchscreen. Shows approved food orders with notes; cooks tap dishes as they are ready.</p>
+          <div class="pin" id="pin-kitchen"></div><br />
+          <a class="btn btn-primary" href="/kitchen" target="_blank" rel="noopener">Open kitchen</a>
+        </section>
+      </div>
+
+      <section class="panel">
+        <h2>How to run the demo</h2>
+        <ol class="steps">
+          <li>Open <b>Reception</b> and <b>Kitchen</b> (each asks for its PIN, then tap “Start screen” to turn on sounds).</li>
+          <li>Scan table 1 with a phone (or click “open here”), add a few dishes and drinks with notes, and send the order.</li>
+          <li>Reception hears a chime → Approve. Food appears in the kitchen; drinks and desserts stay at reception.</li>
+          <li>On the phone, the guest watches each item change: waiting → being prepared → ready.</li>
+          <li>Try changing the order at reception: items already marked Ready are locked; other changes flash on the kitchen screen.</li>
+          <li>Use “Waiter” on the phone to call a waiter or ask for the bill, then close the table at reception.</li>
+        </ol>
+        <p style="margin-top:16px"><button type="button" class="btn btn-outline danger" id="reset">Reset demo orders</button></p>
+      </section>
+    </main>
+
+    <script src="/js/i18n.js"></script>
+    <script src="/js/common.js"></script>
+    <script>
+      (async function () {
+        const { esc } = B;
+        const data = await B.api('GET', '/api/demo');
+        document.getElementById('pin-reception').textContent = `PIN ${data.pins.reception}`;
+        document.getElementById('pin-kitchen').textContent = `PIN ${data.pins.kitchen}`;
+        document.getElementById('base').textContent = `Phones open: ${data.base}  —  if a phone cannot open it, make sure it is on the same Wi-Fi and allow Node.js through the Windows firewall.`;
+        document.getElementById('tables').innerHTML = data.tables
+          .map(
+            (tb) => `
+          <div class="qr">
+            <b>Table ${esc(tb.table)}</b>
+            ${tb.svg}
+            <a class="btn btn-outline btn-sm" href="${esc(tb.path)}" target="_blank" rel="noopener">Open here</a>
+          </div>`
+          )
+          .join('');
+        document.getElementById('reset').addEventListener('click', async () => {
+          if (!confirm('Delete all demo orders, calls and sold-out marks?')) return;
+          await B.api('POST', '/api/demo/reset');
+          alert('Demo reset.');
+        });
+      })();
+    </script>
+  </body>
+</html>
