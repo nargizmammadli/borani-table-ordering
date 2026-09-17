@@ -1,0 +1,467 @@
+/* Shared design tokens and building blocks. Colours come from Boranı's logo and interior:
+   charcoal, burnt orange, olive and warm cream. */
+:root {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --surface-2: #f3ece3;
+  --ink: #231f1c;
+  --ink-2: #5b524b;
+  --ink-3: #857a70;
+  --line: #e6dccf;
+  --brand: #c4531c;
+  --brand-hover: #a9461a;
+  --brand-soft: #fbe8dc;
+  --charcoal: #2b2826;
+  --olive: #5f6b33;
+  --olive-soft: #eef0e0;
+  --green: #2c7a4b;
+  --green-hover: #23633d;
+  --green-soft: #e2f1e7;
+  --amber: #9a6200;
+  --amber-soft: #fff1d6;
+  --red: #b42318;
+  --red-soft: #fde9e7;
+  --blue: #1f5fa8;
+  --blue-soft: #e4eefa;
+  --radius: 18px;
+  --radius-sm: 12px;
+  --shadow: 0 1px 2px rgba(35, 31, 28, 0.06), 0 4px 16px rgba(35, 31, 28, 0.07);
+  --shadow-lg: 0 10px 40px rgba(35, 31, 28, 0.22);
+  --font: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.icon {
+  flex: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.15;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.15s, transform 0.08s, border-color 0.15s;
+  user-select: none;
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn[disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.btn-primary {
+  background: var(--brand);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--brand-hover);
+}
+.btn-go {
+  background: var(--green);
+  color: #fff;
+}
+.btn-go:hover {
+  background: var(--green-hover);
+}
+.btn-danger {
+  background: var(--red);
+  color: #fff;
+}
+.btn-outline {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink);
+}
+.btn-outline:hover {
+  border-color: var(--ink-3);
+}
+.btn-outline.danger {
+  color: var(--red);
+}
+.btn-outline.danger:hover {
+  border-color: var(--red);
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--ink-2);
+}
+.btn-block {
+  display: flex;
+  width: 100%;
+}
+.btn-lg {
+  min-height: 62px;
+  font-size: 20px;
+}
+.btn-sm {
+  min-height: 40px;
+  padding: 6px 14px;
+  font-size: 16px;
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+/* ---------- pills ---------- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.pill-amber {
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+.pill-blue {
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+.pill-green {
+  background: var(--green-soft);
+  color: var(--green);
+}
+.pill-grey {
+  background: var(--surface-2);
+  color: var(--ink-2);
+}
+.pill-red {
+  background: var(--red-soft);
+  color: var(--red);
+}
+.pill-brand {
+  background: var(--brand-soft);
+  color: var(--brand-hover);
+}
+
+/* ---------- language switch ---------- */
+.lang-switch {
+  display: inline-flex;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow);
+}
+.lang-switch button {
+  min-width: 48px;
+  height: 40px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--ink-2);
+}
+.lang-switch button.active {
+  background: var(--charcoal);
+  color: #fff;
+}
+
+/* ---------- toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  top: 16px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100vw - 32px);
+  padding: 14px 20px;
+  border-radius: 16px;
+  background: var(--charcoal);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: var(--shadow-lg);
+  transform: translate(-50%, -140%);
+  transition: transform 0.25s ease;
+  pointer-events: none;
+}
+.toast.show {
+  transform: translate(-50%, 0);
+}
+.toast-ok .icon {
+  color: #7fd6a0;
+}
+.toast-error {
+  background: var(--red);
+}
+
+/* ---------- modal / bottom sheet ---------- */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(20, 16, 13, 0.55);
+  animation: fade 0.18s ease;
+}
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 560px;
+  max-height: 94vh;
+  max-height: 94dvh;
+  background: var(--surface);
+  border-radius: 24px 24px 0 0;
+  box-shadow: var(--shadow-lg);
+  animation: rise 0.22s ease;
+  overflow: hidden;
+}
+.modal-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 20px;
+}
+.modal-foot {
+  padding: 14px 20px calc(14px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  box-shadow: var(--shadow);
+}
+@media (min-width: 700px) {
+  .modal-backdrop {
+    align-items: center;
+    padding: 24px;
+  }
+  .modal {
+    border-radius: 24px;
+  }
+}
+/* Re-drawing an already open sheet must not replay the entrance animation */
+.modal-backdrop.static,
+.modal-backdrop.static .modal {
+  animation: none;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes rise {
+  from {
+    transform: translateY(40px);
+    opacity: 0.4;
+  }
+}
+
+.dialog h2 {
+  margin: 4px 48px 8px 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.dialog p {
+  margin: 0 0 8px;
+  color: var(--ink-2);
+}
+.dialog-actions {
+  display: grid;
+  gap: 10px;
+}
+
+/* ---------- form bits ---------- */
+.field-label {
+  display: block;
+  margin: 0 0 8px;
+  font-weight: 800;
+  font-size: 18px;
+}
+.textarea,
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  font-size: 18px;
+  resize: vertical;
+}
+.textarea:focus,
+.input:focus {
+  outline: none;
+  border-color: var(--brand);
+}
+
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.stepper button {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+.stepper button:active {
+  background: var(--surface-2);
+}
+.stepper output {
+  min-width: 44px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+.stepper.small button {
+  width: 44px;
+  height: 44px;
+}
+.stepper.small output {
+  min-width: 34px;
+  font-size: 20px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 8px 16px;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  font-weight: 700;
+  font-size: 17px;
+}
+.chip[aria-pressed='true'] {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+  color: var(--brand-hover);
+}
+.chip .icon {
+  display: none;
+}
+.chip[aria-pressed='true'] .icon {
+  display: inline-block;
+}
+
+.note-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+.note-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background: var(--amber-soft);
+  color: #6b4400;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.empty {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--ink-2);
+}
+.empty .icon {
+  color: var(--ink-3);
+}
+.empty h2,
+.empty h3 {
+  margin: 8px 0 0;
+  color: var(--ink);
+}
