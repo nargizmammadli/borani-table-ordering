@@ -1,4 +1,6 @@
 node_modules/
+# Built online demo (npm run build:static); published to the gh-pages branch
+dist/
 # Runtime data: open tables/orders and the local secret key (table QR codes are derived from it)
 data/state.json
 data/state.json.tmp

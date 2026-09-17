@@ -53,6 +53,23 @@ Free plan notes: the server sleeps after ~15 minutes without visitors (first vis
 and orders are cleared when it restarts. Table QR codes stay valid because they are derived from `SESSION_SECRET`.
 For real daily use, move to a paid instance with a persistent disk or a database.
 
+## Online demo without a server (GitHub Pages)
+
+**https://nargizmammadli.github.io/borani-table-ordering/**
+
+The same screens, built to run with no server so the idea can be shown with just a link.
+`static/browser-server.js` answers the pages' API calls inside the browser using the rules in `src/store.js`, and saves
+orders in that browser. Guest, reception and kitchen update each other live **in tabs of the same browser**; a phone
+that scans a QR code gets its own separate demo. For the real phone → reception → kitchen flow, use the server above.
+
+```bash
+npm run build:static   # writes the demo to dist/
+```
+
+Every push to `main` rebuilds it and publishes it to the `gh-pages` branch (`.github/workflows/pages.yml`).
+One-time setup on GitHub: **Settings → Pages → Deploy from a branch → `gh-pages`, `/ (root)`** (free accounts need
+the repository to be public).
+
 ## Settings (environment variables)
 
 | Variable | Default | Meaning |
@@ -102,4 +119,6 @@ public/kitchen.html  kitchen screen       (js/kitchen.js, css/kitchen.css)
 public/qr.html       printable QR codes
 public/js/i18n.js    all interface text in AZ / EN / RU
 scripts/import-menu.js  menu importer
+static/browser-server.js  in-browser stand-in for server.js (GitHub Pages demo)
+scripts/build-static.js   builds that demo into dist/
 ```
